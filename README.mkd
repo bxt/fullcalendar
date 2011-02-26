@@ -2,6 +2,11 @@
 FullCalendar - Full-sized drag & drop event calendar
 ====================================================
 
+About this Fork
+---------------
+
+This is a fork of [arshaws fullCalendar](http://arshaw.com/fullcalendar/) that includes a 6-month-view. 
+
 Development and testing
 -----------------------
 
