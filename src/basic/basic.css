@@ -19,6 +19,12 @@
 	   making day-numbers bold also fixes the problem */
 	}
 	
+.fc-grid.fc-view-sixWeek .fc-other-month .fc-day-number {
+	/* because grey numbers do not really make sense in 6-week-view */
+	opacity: 1;
+	filter: alpha(opacity=100); /* for IE */
+	}
+	
 .fc-grid .fc-day-content {
 	clear: both;
 	padding: 2px 2px 1px; /* distance between events and day edges */

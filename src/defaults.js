@@ -28,10 +28,11 @@ var defaults = {
 	titleFormat: {
 		month: 'MMMM yyyy',
 		week: "MMM d[ yyyy]{ '&#8212;'[ MMM] d yyyy}",
-		day: 'dddd, MMM d, yyyy'
+		day: 'dddd, MMM d, yyyy',
 	},
 	columnFormat: {
 		month: 'ddd',
+		sixWeek: 'ddd',
 		week: 'ddd M/d',
 		day: 'dddd M/d'
 	},
@@ -53,6 +54,7 @@ var defaults = {
 		nextYear: '&nbsp;&gt;&gt;&nbsp;',
 		today: 'today',
 		month: 'month',
+		sixWeek: '6 weeks',
 		week: 'week',
 		day: 'day'
 	},
@@ -67,7 +69,9 @@ var defaults = {
 	//selectable: false,
 	unselectAuto: true,
 	
-	dropAccept: '*'
+	dropAccept: '*',
+	
+	referenceDate: {sixWeek:new Date(2011,0,1)}
 	
 };
 

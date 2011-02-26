@@ -132,6 +132,9 @@ function setYMD(date, y, m, d) {
 	}
 }
 
+function rewindToDOW (d, dow) {
+	return addDays(d, -((d.getDay() - dow + 7) % 7));
+}
 
 
 /* Date Parsing
